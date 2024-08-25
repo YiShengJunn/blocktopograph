@@ -26,7 +26,7 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v2
       with:
-        android-version: '34' # 指定 SDK 版本
+        android-version: '30' # 指定 SDK 版本
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
